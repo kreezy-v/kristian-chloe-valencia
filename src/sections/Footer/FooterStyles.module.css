@@ -2,12 +2,21 @@
     text-align: center;
     box-shadow: 0 -5px 10px rgb(55, 55, 55, 0.5);
     background-color: var(--background-footer-color);
-    width: calc(100vw - 17px);
+
     p{
-        font-size: 16px;
         color: var(--footer-text-color);
         margin: 25px 0;
     }
+    p:nth-child(1){  
+        font-size: 14px;
+        b{
+            font-size: 20px;
+        }
+    }
+    p:nth-child(3){
+        font-size: 11px;
+    }
+
 
     span{
         display: flex;
@@ -19,6 +28,17 @@
             img{
                 width: 30px;
             }
+        }
+    }
+}
+
+@media (width >= 800px){
+    .container{
+        p:nth-child(1){
+            font-size: 16px;
+        }
+        p:nth-child(3){
+            font-size: 16px;
         }
     }
 }

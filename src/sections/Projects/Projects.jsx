@@ -1,5 +1,8 @@
 import styles from "./ProjectStyles.module.css";
 import pascalsApp from "../../assets/pascalsApp.jpg";
+import caugthsceneWeb from "../../assets/caughtsceneLogo.png";
+import secureVoteApp from "../../assets/securevoteLogo.png";
+import binomialApp from "../../assets/binomialExpansionLogo.png";
 import ProjectCard from "../../common/ProjectCard";
 function Projects() {
   return (
@@ -13,34 +16,22 @@ function Projects() {
           p="Pascals Traingle Program"
         />
         <ProjectCard
-          src={pascalsApp}
-          link=""
-          h3="Pascals App"
-          p="Pascals Traingle Program"
+          src={secureVoteApp}
+          link="https://github.com/kreezy-v/securevote-face-recognition-based-voting-system"
+          h3="SecureVote"
+          p="Face Recognition Based App"
         />
         <ProjectCard
-          src={pascalsApp}
-          link=""
-          h3="Pascals App"
-          p="Pascals Traingle Program"
+          src={caugthsceneWeb}
+          link="https://github.com/kreezy-v/caughtscene-movie-website"
+          h3="CaughtScene"
+          p="Movie Website"
         />
         <ProjectCard
-          src={pascalsApp}
-          link=""
-          h3="Pascals App"
-          p="Pascals Traingle Program"
-        />
-        <ProjectCard
-          src={pascalsApp}
-          link=""
-          h3="Pascals App"
-          p="Pascals Traingle Program"
-        />
-        <ProjectCard
-          src={pascalsApp}
-          link=""
-          h3="Pascals App"
-          p="Pascals Traingle Program"
+          src={binomialApp}
+          link="https://github.com/kreezy-v/binomial-expansion"
+          h3="Binomial Expansion"
+          p="Windows App Program"
         />
       </div>
     </section>

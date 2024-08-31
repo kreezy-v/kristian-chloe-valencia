@@ -61,7 +61,7 @@
 .colorMode{
     position: absolute;
     right: 10;
-    width: 50px;
+    width: 30px;
 }
 
 .colorMode:hover{
@@ -69,6 +69,7 @@
 }
 
 .description{
+    font-size: 0.9rem;
     max-width: 40ch;
     align-self: center;
 }
@@ -90,6 +91,10 @@
             max-width: 350px;
             width: 350px;
         }
+    }
+
+    .description{
+        font-size: 1.25rem;
     }
 }
 

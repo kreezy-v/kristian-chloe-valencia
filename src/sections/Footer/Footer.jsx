@@ -8,7 +8,7 @@ function Footer() {
   return (
     <section id="footer" className={styles.container}>
       <p>
-        &copy; 2024 Kristian Chloe Valencia. <br />
+        <b>&copy;</b> 2024 Kristian Chloe Valencia. <br />
         All rights reserved
       </p>
       <span>
