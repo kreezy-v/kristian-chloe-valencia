@@ -8,7 +8,7 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={pascalsApp}
-          link=""
+          link="https://github.com/kreezy-v/Pascals-App"
           h3="Pascals App"
           p="Pascals Traingle Program"
         />
