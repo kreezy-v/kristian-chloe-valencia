@@ -8,6 +8,8 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
+import mailLight from "../../assets/mail-light.svg";
+import mailDark from "../../assets/mail-dark.svg";
 import CV from "../../assets/LatestCV_Valencia.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
@@ -17,6 +19,7 @@ function Hero() {
   const facebookIcon = theme === "light" ? facebookLight : facebookDark;
   const githubIcon = theme === "light" ? githubLight : githubDark;
   const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
+  const mailIcon = theme === "light" ? mailLight : mailDark;
 
   return (
     <section id="hero" className={styles.container}>
@@ -41,14 +44,20 @@ function Hero() {
         </h1>
         <h2>Software Developer</h2>
         <span>
-          <a href="https://facebook.com/" target="_blank">
+          <a href="https://www.facebook.com/Kreezy.V" target="_blank">
             <img src={facebookIcon} alt="Facebook icon" />
           </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/kreezy-v" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://linkedin.com/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/kristian-chloe-valencia/"
+            target="_blank"
+          >
             <img src={linkedinIcon} alt="LinkedIn icon" />
+          </a>
+          <a href="mailto:valenciakristianchloe@gmail.com">
+            <img src={mailIcon} alt="Mail icon" />
           </a>
         </span>
         <p className={styles.description}>
