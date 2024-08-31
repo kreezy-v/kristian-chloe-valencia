@@ -1,8 +1,10 @@
-function SkillList({ src, skill }) {
+function SkillList({ skill, logo }) {
   return (
     <span>
-      <img src={src} alt={`${skill} icon`} />
-      <p>{skill}</p>
+      <img src={logo} alt={`${logo} icon`} />
+      <span>
+        <p>{skill}</p>
+      </span>
     </span>
   );
 }
