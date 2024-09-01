@@ -20,8 +20,8 @@
             text-align: left;
             div{
                 width: 80vw;
-                height: 200px;
-                max-height: fit-content;
+                height: fit-content;
+                min-height: 200px;
                 padding: 10px;
                 background-color: var(--project-card-bg);
                 border-radius: 5px;        
