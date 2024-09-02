@@ -23,6 +23,7 @@
                 height: fit-content;
                 min-height: 200px;
                 padding: 10px;
+                padding-bottom: 20px;
                 background-color: var(--project-card-bg);
                 border-radius: 5px;        
                 box-shadow: 0 4px 10px rgba(0,0,0,0.25);
