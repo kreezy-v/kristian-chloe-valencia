@@ -12,8 +12,10 @@ import mailLight from "../../assets/mail-light.svg";
 import mailDark from "../../assets/mail-dark.svg";
 import CV from "../../assets/LatestCV_Valencia.pdf";
 import { useTheme } from "../../common/ThemeContext";
+import { useRef } from "react";
 
 function Hero() {
+  const home = useRef(null);
   const { theme, toggleTheme } = useTheme();
   const themeIcon = theme === "light" ? sun : moon;
   const facebookIcon = theme === "light" ? facebookLight : facebookDark;
@@ -22,7 +24,7 @@ function Hero() {
   const mailIcon = theme === "light" ? mailLight : mailDark;
 
   return (
-    <section id="hero" className={styles.container}>
+    <section id="hero" className={styles.container} ref={home}>
       <div className={styles.colorModeContainer}>
         <img
           className={styles.hero}
