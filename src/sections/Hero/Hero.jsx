@@ -44,7 +44,7 @@ function Hero() {
           <br />
           Valencia
         </h1>
-        <h2>Software Developer</h2>
+        <h2>Software Engineer</h2>
         <span>
           <a href="https://www.facebook.com/Kreezy.V" target="_blank">
             <img src={facebookIcon} alt="Facebook icon" />
